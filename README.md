@@ -1,20 +1,22 @@
 <link rel="stylesheet" href="style.css">
-# 🧠 neetmadann.github.io
 
-**Power BI • DAX • Custom Visuals**  
-Where built-in charts stop short, I build what’s missing.
+# 🧠 [**neetmadann.github.io**](https://neetmadann.github.io)
 
----
+**Power BI • DAX • Custom Visuals • Python • Machine Learning • Fabric**  
 
 ## 👋 Hi, I’m Neet
 
-I design with data — and build what’s missing when the defaults fall short.
+              - 🧠 **More than a Business Intelligence Developer.**  
+              - 📊 **More than a Data Scientist.**  
+              - 🎨 I design visuals that make complex data instantly clear — even to C-levels with zero time.  
+              - 💡 If it needs an extensive walkthrough, it’s not done yet...!
 
-I’ve worked across industries: **finance, revenue management in hospitality, IT consulting, and eCommerce digital tech**. That range taught me how differently teams use data — and how often dashboards miss the mark. My focus is on creating tools people can actually use — quickly, clearly, and without needing a walkthrough.
+ ***BASICALLY: I’m a BI–Data Science hybrid, now also stepping into data engineering with Fabric — learning humbly, trying to cover the entire data pipeline in one person: ME!***
 
-By background, I’m a **Business Intelligence developer** with a strong foundation in **Power BI and DAX**. But I’m also a **data scientist at heart**, with a deep interest in the logic behind what we measure and why.
+I’ve worked across industries — **finance**, **revenue management in hospitality**, **IT consulting**, and **eCommerce digital tech**.
+Along the way, I’ve been observing how different teams use data — and how often dashboards **miss the mark**.
 
-Lately, I’ve been getting into **data engineering with Microsoft Fabric** — learning humbly, but intentionally. I’m aiming to understand and support the full data pipeline — from raw ingestion to visual insight — and quietly becoming the kind of person who can bridge those gaps end-to-end.
+My focus is on building tools people can actually use: **fast**, **clear**, and **straight to the point** — with **business impact always at the forefront**.
 
 What I build is shaped by these ideas:
 
