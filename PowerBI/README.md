@@ -20,7 +20,7 @@ This folder features **downloadable Power BI content** crafted around a fictiona
   Custom color palettes, report layouts, and clean UI design elements.
 
 - 📈 **Financial Forecasting Templates**  
-  Projected metrics and interactive modeling powered by dynamic DAX.
+  - Bank Loan Project
 
 - 💰 **Revenue & Profitability Analysis Dashboards**  
   KPI tracking, multi-level margin views, and dynamic slicers.
