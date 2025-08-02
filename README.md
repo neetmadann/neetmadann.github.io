@@ -2,12 +2,18 @@
 
 # 🎀 neetmadann.github.io 🎀
 
-<div class="headstone-quote">
-  🌸 <em>I’m not just a Business Intelligence Developer.<br>
-  I’m not just a Data Scientist.<br>
-  I’m a Visual Designer of Data — crafting visuals so clear, even C-levels in suits know the next step in 3 seconds or less.<br>
-  My visuals explain themselves — no voiceover required.</em> 🎨✨
-</div>
+<table width="100%" style="background-color:#f0f4f8; border: 4px solid #1b263b; padding: 20px; border-radius: 12px;">
+<tr><td>
+
+🌸 <em>
+I’m not just a Business Intelligence Developer. <br>
+I’m not just a Data Scientist. <br>
+I’m a <strong>Visual Designer of Data</strong> — crafting visuals so clear, even C-levels in suits know the next step in 3 seconds or less. <br>
+My visuals explain themselves — no voiceover required.
+</em> 🎨✨
+
+</td></tr>
+</table>
 
 ### ⚡ Let’s Get Real — You Don’t Need Complicated Tools to Stand Out
 
