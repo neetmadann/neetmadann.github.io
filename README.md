@@ -1,6 +1,6 @@
 # 🌸 neetmadann.github.io
 
-This is my redirect hub to all things **Observable**! 🚀
+This is my redirect hub to all things **Observable HQ, Where you can see am not a Business Intelligence, Data Scientist, But I am a Visual Designer of Data, All things analytical and beautiful**! 🚀
 
 ## 🔗 Quick Links
 
