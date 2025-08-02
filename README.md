@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="style.css">
-
 # 🧠 neetmadann.github.io
 
 **Power BI • DAX • Custom Visuals**  
@@ -9,44 +8,61 @@ Where built-in charts stop short, I build what’s missing.
 
 ## 👋 Hi, I’m Neet
 
-I work at the intersection of data, design, and logic — building dashboards that don’t just look good but **make sense fast**.
+I design with data — and build what’s missing when the defaults fall short.
 
-I’m a Business Intelligence developer who:
+I’ve worked across industries: **finance, revenue management in hospitality, IT consulting, and eCommerce digital tech**. That range taught me how differently teams use data — and how often dashboards miss the mark. My focus is on creating tools people can actually use — quickly, clearly, and without needing a walkthrough.
 
-- 📊 Builds clean, functional dashboards in **Power BI**
-- 🧮 Uses **DAX** to make reports smarter and more responsive
-- 🎨 Designs **custom visuals** with Deneb and SVG when native charts aren’t enough
-- 🧠 Focuses on user clarity — because people shouldn’t have to guess what a chart means
+By background, I’m a **Business Intelligence developer** with a strong foundation in **Power BI and DAX**. But I’m also a **data scientist at heart**, with a deep interest in the logic behind what we measure and why.
 
-> *If a stakeholder has to ask what they’re looking at, it’s not a finished visual.*
+Lately, I’ve been getting into **data engineering with Microsoft Fabric** — learning humbly, but intentionally. I’m aiming to understand and support the full data pipeline — from raw ingestion to visual insight — and quietly becoming the kind of person who can bridge those gaps end-to-end.
+
+What I build is shaped by these ideas:
+
+- 📊 Use Power BI for clarity — not clutter  
+- 🧮 Let DAX do the heavy lifting behind the scenes  
+- 🎨 Build custom visuals with Deneb when native charts can’t tell the full story  
+- 🧠 Focus on cognitive simplicity — because if it takes more than 3 seconds to understand, it needs another pass
+
+> I don’t want to master every tool. I want to master the experience — for the person on the other side of the dashboard.
+
+This space is where I explore that work, piece by piece.
 
 ---
 
-## 🛠️ What I Believe
+## 🔍 Focus Areas
 
-### 1. You don’t need a hundred tools — just the right ones  
-I mostly work with:
+### 🎯 Visual Simplicity with Maximum Impact
+
+You don’t need every tool in the stack. Just:
+
 - Power BI  
 - Deneb (Vega-Lite)  
 - Simple SVG logic  
-That’s usually enough to make 90% of visuals clean, branded, interactive — and more useful than the default templates.
 
-### 2. Good design = empathy  
-Most charts are too complicated. My work is about removing friction — giving people answers faster, with less noise. Especially for non-technical audiences.
-
-### 3. AI is fast. Taste is faster.  
-Yes, tools like ChatGPT, Claude, and Copilot can generate dashboards. But they can’t make judgment calls. They can’t design with empathy. That’s where I come in.
+That’s often 90% of what it takes to create branded, interactive, low-friction dashboards.
 
 ---
 
-## 🎯 How I Level Up
+### 🤖 Staying Relevant in an AI-First World
 
-Here’s my visual design stack, in order:
+AI tools like ChatGPT, Claude, and Copilot can auto-generate charts and reports.  
+But what they can’t replicate is:
 
-1. **Power BI** — clean dashboards and native visuals  
-2. **DAX** — smart calculations, filters, KPIs  
-3. **Deneb** — custom visuals using Vega-Lite  
-4. **D3.js** — full control when I want to push the limits (or monetize)
+- **Simple & Sophisticated**
+- **Empathy**
+- **User-first design approach**
+- **Very Useful and Bang on Visuals that drive High Impact Business Decisions**
+
+I design for human interpretation — not just machine output.
+
+---
+
+## 🧭 My Learning Path
+
+1. **Power BI** — build clean dashboards and reports  
+2. **DAX** — write logic that responds to context and goals  
+3. **Deneb** — go custom when native visuals aren’t cutting it  
+4. **D3.js** — deep customization and full visual control for edge cases (or monetization)
 
 ---
 
