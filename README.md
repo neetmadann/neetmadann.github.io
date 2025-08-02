@@ -8,7 +8,7 @@
 🌸 <em>
 I’m not just a Business Intelligence Developer. <br>
 I’m not just a Data Scientist. <br>
-I’m a <strong>Visual Designer of Data</strong> — crafting visuals so clear, even C-levels in suits know the next step in 3 seconds or less. <br>
+I’m a <strong>Visual Designer of Data</strong> — crafting visuals so clear, even C-levels in suits know can analyse my visually appealing data in less than 3 seconds. <br>
 My visuals explain themselves — no voiceover required.
 </em> 🎨✨
 
