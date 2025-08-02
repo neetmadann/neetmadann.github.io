@@ -25,12 +25,6 @@ What I build is shaped by these ideas:
 - 🎨 Build custom visuals with Deneb when native charts can’t tell the full story  
 - 🧠 Focus on cognitive simplicity — because if it takes more than 3 seconds to understand, it needs another pass
 
-> I don’t want to master every tool. I want to master the experience — for the person on the other side of the dashboard.
-
-This space is where I explore that work, piece by piece.
-
----
-
 ## 🔍 Focus Areas
 
 ### 🎯 Visual Simplicity with Maximum Impact
@@ -40,10 +34,6 @@ You don’t need every tool in the stack. Just:
 - Power BI  
 - Deneb (Vega-Lite)  
 - Simple SVG logic  
-
-That’s often 90% of what it takes to create branded, interactive, low-friction dashboards.
-
----
 
 ### 🤖 Staying Relevant in an AI-First World
 
@@ -55,18 +45,12 @@ But what they can’t replicate is:
 - **User-first design approach**
 - **Very Useful and Bang on Visuals that drive High Impact Business Decisions**
 
-I design for human interpretation — not just machine output.
-
----
-
 ## 🧭 My Learning Path
 
 1. **Power BI** — build clean dashboards and reports  
 2. **DAX** — write logic that responds to context and goals  
 3. **Deneb** — go custom when native visuals aren’t cutting it  
 4. **D3.js** — deep customization and full visual control for edge cases (or monetization)
-
----
 
 ## 🔗 Quick Links
 
