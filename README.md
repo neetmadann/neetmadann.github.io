@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+
 
 # 🧠 [**neetmadann.github.io**](https://neetmadann.github.io)
 
