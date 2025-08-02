@@ -1,38 +1,19 @@
 <link rel="stylesheet" href="style.css">
 
+
 # 🎀 neetmadann.github.io 🎀
-<table width="100%" style="background-color:#e8ecf3; border: 4px solid #1b263b; padding: 20px; border-radius: 12px;">
-<tr><td align="center" style="font-weight: bold; font-size: 1.3rem; letter-spacing: 1px; color:#1b263b;">
 
-<div align="center">
+<p align="center" style="font-weight: bold; font-size: 1.2rem; color: #1b263b;">
+🔥💡🎯 <strong>POWER BI. DAX. CUSTOM VISUALS.<br>
+I FILL THE GAPS WHERE BUILT-IN CHARTS STOP SHORT.</strong> 🔥💡🎯
+</p>
 
-<table style="background-color:#e8ecf3; border: 4px solid #1b263b; padding: 20px; border-radius: 12px;">
-<tr><td align="center" style="font-weight: bold; font-size: 1.3rem; letter-spacing: 1px; color:#1b263b;">
-
-🔥💡🎯<br>
-<strong>
-POWER BI. DAX. CUSTOM VISUALS.<br>
-I FILL THE GAPS WHERE BUILT-IN CHARTS STOP SHORT.
-</strong><br>
-🔥💡🎯
-
-</td></tr>
-</table>
-
-</div>
-
-</td></tr>
-</table>
-
-🌸 <em>
-I’m not just a Business Intelligence Developer. <br>
-I’m not just a Data Scientist. <br>
-I’m a <strong>Visual Designer of Data</strong> — crafting visuals so clear, even C-levels in suits know can analyse my visually appealing data in less than 3 seconds. <br>
-My visuals explain themselves — no voiceover required.
-</em> 🎨✨
-
-</td></tr>
-</table>
+<ul>
+  <li>🌸 <em>I’m not just a <strong>Business Intelligence Developer</strong>.</em></li>
+  <li>📊 <em>I’m not just a <strong>Data Scientist</strong>.</em></li>
+  <li>🎨 <em>I’m a <strong>Visual Designer of Data</strong> — crafting visuals so clear, even C-levels in suits can analyze them in under 3 seconds.</em></li>
+  <li>💡 <em>My visuals explain themselves — no voiceover required.</em></li>
+</ul>
 
 ### ⚡ Let’s Get Real — You Don’t Need Complicated Tools to Stand Out
 
