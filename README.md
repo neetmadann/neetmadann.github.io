@@ -7,7 +7,7 @@
 <div class="headstone-quote">
   🌸 <em>I’m not just a Business Intelligence Developer.<br>
   I’m not just a Data Scientist.<br>
-  I’m a Visual Designer of Data — crafting visuals so clear, even C-levels in suits know the next step in 3 seconds or less.<br>
+  I’m a Visual Designer of Data — crafting visuals so clear, even C-levels in suits should be able to tell what the data is trying to say in less than 3 seconds.<br>
   My visuals explain themselves — no voiceover required.</em> 🎨✨
 </div>
 
