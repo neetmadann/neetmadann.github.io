@@ -2,7 +2,8 @@
 
 # 🎀 neetmadann.github.io 🎀
 <h2 align="center" style="color:#1b263b; letter-spacing:1px;">
-🚀  ALL THINGS POWERBI, DAX, AND CUSTOM VISUALS.  WHEN YOU FIND GAPS, I DESIGN SOLUTIONS.</h2>
+🚀  ALL THINGS POWERBI, DAX, AND CUSTOM VISUALS.
+  WHEN YOU FIND GAPS, I DESIGN SOLUTIONS.</h2>
 
 <table width="100%" style="background-color:#f0f4f8; border: 4px solid #1b263b; padding: 20px; border-radius: 12px;">
 <tr><td>
