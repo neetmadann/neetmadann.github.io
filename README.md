@@ -4,16 +4,16 @@
 
 # 🎀 neetmadann.github.io 🎀
 
+<div class="container">
+
 <div class="headstone-quote">
   🌸 <em>I’m not just a Business Intelligence Developer.<br>
   I’m not just a Data Scientist.<br>
-  I’m a Visual Designer of Data — crafting visuals so clear, even C-levels in suits should be able to tell what the data is trying to say in less than 3 seconds.<br>
+  I’m a Visual Designer of Data — crafting visuals so clear, even C-levels in suits know the next step in 3 seconds or less.<br>
   My visuals explain themselves — no voiceover required.</em> 🎨✨
 </div>
 
----
-
-### ⚡ Let’s Get Real — You Don’t Need Complicated Tools to Stand Out
+<!-- ### ⚡ Let’s Get Real — You Don’t Need Complicated Tools to Stand Out
 
 Here’s the truth: you don’t need to master every tool, language, or advanced library to create dashboards that impress.
 
@@ -85,6 +85,11 @@ I've laid out a learning path designed to help you **grow confidently**, from te
 This GitHub Pages site is a **visual launchpad** — connecting Power BI dashboards, DAX logic, and the future of visual design using open, creative tools like Deneb and D3.
 
 Built with care, open knowledge, and a sprinkle of visual flair 💫  
-Let’s create data stories that are not just useful — but unforgettable.
+Let’s create data stories that are not just useful — but unforgettable. -->
+
+</div>
+---
+
+
 
 </div>
