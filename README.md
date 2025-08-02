@@ -1,6 +1,6 @@
 # 🎀 neetmadann.github.io 🎀
 
-> 🌸 *“Not a Business Intelligence Analyst. Not a Data Scientist.  
+> 🌸 *“Not Only a Business Intelligence Dev. Not Only a Data Scientist, But I bring a whole personality of Beautiful Data Designs
 But a Visual Designer of Data — all things analytical *and* beautiful!”* 🎨✨
 
 Welcome to my redirect hub to all things [**Observable HQ**](https://observablehq.com/@neetmadan)! 🚀  
