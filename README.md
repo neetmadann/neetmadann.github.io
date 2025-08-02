@@ -1,12 +1,29 @@
-# 🌸 neetmadann.github.io
+# 🎀 neetmadann.github.io 🎀
 
-This is my redirect hub to all things **Observable HQ, Where you can see am not a Business Intelligence, Data Scientist, But I am a Visual Designer of Data, All things analytical and beautiful**! 🚀
+> 🌸 *“Not a Business Intelligence Analyst. Not a Data Scientist.  
+But a Visual Designer of Data — all things analytical *and* beautiful!”* 🎨✨
 
-## 🔗 Quick Links
+Welcome to my redirect hub to all things [**Observable HQ**](https://observablehq.com/@neetmadan)! 🚀  
+This is where I showcase creative, interactive data stories and experiments.
 
-- 🌐 [**My Observable Profile**](https://observablehq.com/@neetmadan)  
-  ⤷ Just visit: [neetmadann.github.io](https://neetmadann.github.io)
+---
 
-- 🌌 [**Deneb Workspace**](https://observablehq.com/@neetmadan/deneb)  
-  ⤷ Shortcut: [neetmadan.github.io/deneb](https://neetmadan.github.io/deneb)
+## 🌈 Quick Links
+
+### 🌐 My Observable Profile  
+[![Profile](https://img.shields.io/badge/Visit%20Profile-Observable%20HQ-ff69b4?style=for-the-badge&logo=observable)](https://observablehq.com/@neetmadan)  
+⤷ Or just go to: **[neetmadann.github.io](https://neetmadann.github.io)**
+
+---
+
+### 🌌 Deneb Workspace  
+[![Deneb](https://img.shields.io/badge/Explore%20Deneb-Visual%20Workspace-87ceeb?style=for-the-badge&logo=databricks)](https://observablehq.com/@neetmadan/deneb)  
+⤷ Shortcut: **[neetmadan.github.io/deneb](https://neetmadan.github.io/deneb)**
+
+---
+
+## 💡 About This Site
+
+This GitHub Pages repo serves as a launchpad to my ObservableHQ world.  
+Built with love, HTML redirects, and a sprinkle of visual flair 💫
 
