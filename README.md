@@ -6,8 +6,8 @@
 
 ## 👋 Hi, I’m Neet
 
-              - 🧠 **More than a Business Intelligence Developer.**  
-              - 📊 **More than a Data Scientist.**  
+              - 🧠 More than a Business Intelligence Developer.
+              - 📊 More than a Data Scientist.  
               - 🎨 I design visuals that make complex data instantly clear — even to C-levels with zero time.  
               - 💡 If it needs an extensive walkthrough, it’s not done yet...!
 
