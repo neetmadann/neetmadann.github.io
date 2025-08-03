@@ -1,0 +1,43 @@
+{
+    "name": "Castla-YourData",
+    "dataColors": [
+        "#494990",
+        "#f4f735",
+        "#d67291",
+        "#86f1ef"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "tableAccent": "#e9e6e5",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "general": [
+                    {
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "title": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#353535"
+                            }
+                        },
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "labels": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#353535"
+                            }
+                        },
+                        "fontFamily": "Segoe UI"
+                    }
+                ]
+            }
+        }
+    }
+}
