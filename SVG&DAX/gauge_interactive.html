@@ -2,74 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Interactive SVG Gauge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Gauge Chart</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #f5f5f5;
     }
-
-    input[type="range"] {
-      width: 60%;
-      margin-top: 20px;
+    .controls {
+      margin-bottom: 20px;
     }
-
-    svg {
-      display: block;
-      margin: auto;
+    input[type="number"] {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100px;
+      margin: 0 10px;
+    }
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: #1890ff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #40a9ff;
     }
   </style>
 </head>
 <body>
+  <div class="controls">
+    <label>Percentage: </label>
+    <input type="number" id="percentageInput" value="59" min="0" max="200" step="1" />
+    <button onclick="updateGauge()">Update Gauge</button>
+  </div>
 
-  <h2>Utilization Gauge</h2>
-  <svg viewBox="0 0 200 120" width="400" height="240" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background arc -->
-    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#eee" stroke-width="20" fill="none" />
-
-    <!-- Foreground arc -->
-    <path id="progressArc" d="M20,110 A80,80 0 0,1 180,110"
-          stroke="black" stroke-width="20" fill="none"
-          stroke-dasharray="0 999" stroke-linecap="round" />
-
+  <svg id="gauge" viewBox="0 0 200 175" width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base arc -->
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#eeeeee" stroke-width="20" fill="none" />
+    <!-- Colored segments -->
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#ff4d4f" stroke-width="20" fill="none" stroke-dasharray="72,179" stroke-dashoffset="0" />
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#ffa940" stroke-width="20" fill="none" stroke-dasharray="36,215" stroke-dashoffset="-72" />
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#a0d911" stroke-width="20" fill="none" stroke-dasharray="36,215" stroke-dashoffset="-108" />
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#52c41a" stroke-width="20" fill="none" stroke-dasharray="107,144" stroke-dashoffset="-144" />
+    <!-- Progress arc -->
+    <path id="progressArc" d="M22,110 A78,78 0 0,1 178,110" stroke="black" stroke-width="5" fill="none" />
     <!-- Needle -->
-    <line id="needle" x1="100" y1="110" x2="100" y2="30"
-          stroke="black" stroke-width="3" stroke-linecap="round" />
-
+    <line id="needle" x1="100" y1="110" stroke="black" stroke-width="3" stroke-linecap="round" />
     <!-- Pivot -->
     <circle cx="100" cy="110" r="4" fill="black" />
-
-    <!-- Percentage label -->
-    <text id="label" x="100" y="125" font-size="13" font-family="Arial" font-weight="bold"
-          text-anchor="middle" fill="#fadb14">0%</text>
+    <!-- Labels -->
+    <text x="20" y="120" font-size="8" font-weight="bold" text-anchor="middle">0%</text>
+    <text x="13.2" y="71.4" font-size="8" font-weight="bold" text-anchor="middle">20%</text>
+    <text x="36.4" y="39.4" font-size="8" font-weight="bold" text-anchor="middle">40%</text>
+    <text x="70.6" y="19.6" font-size="8" font-weight="bold" text-anchor="middle">60%</text>
+    <text x="109.9" y="15.5" font-size="8" font-weight="bold" text-anchor="middle">80%</text>
+    <text x="147.5" y="27.7" font-size="8" font-weight="bold" text-anchor="middle">100%</text>
+    <text x="184.3" y="55" font-size="8" font-weight="bold" text-anchor="middle">125%</text>
+    <text x="180" y="120" font-size="8" font-weight="bold" text-anchor="middle">150%</text>
+    <text id="percentageLabel" x="100" y="135" font-size="13" font-weight="bold" text-anchor="middle">59%</text>
   </svg>
 
-  <!-- Slider input -->
-  <input type="range" min="0" max="200" value="0" id="slider" />
-
   <script>
-    const arc = document.getElementById('progressArc');
-    const needle = document.getElementById('needle');
-    const label = document.getElementById('label');
-    const slider = document.getElementById('slider');
+    let currentPercentage = 59;
 
-    const totalLength = 252.4; // Approximate arc length
-
-    function updateGauge(percent) {
-      const clamped = Math.max(0, Math.min(percent, 200));
-      const fillLength = totalLength * (clamped / 200);
-      arc.setAttribute('stroke-dasharray', `${fillLength} ${totalLength}`);
-      const angle = (clamped / 200) * 180 - 90;
-      needle.setAttribute('transform', `rotate(${angle} 100 110)`);
-      label.textContent = `${clamped}%`;
+    function getColorForPercentage(percentage) {
+      if (percentage >= 0 && percentage < 40) return '#ff4d4f';    // Red
+      if (percentage >= 40 && percentage < 60) return '#ffa940';   // Orange
+      if (percentage >= 60 && percentage < 80) return '#a0d911';   // Light Green
+      if (percentage >= 80) return '#52c41a';                      // Green
+      return '#333333'; // Default
     }
 
-    slider.addEventListener('input', (e) => {
-      updateGauge(parseFloat(e.target.value));
+    function updateGauge(percentage = null) {
+      if (percentage === null) {
+        percentage = parseFloat(document.getElementById('percentageInput').value);
+      }
+
+      currentPercentage = percentage;
+
+      // Constants
+      const centerX = 100;
+      const centerY = 110;
+      const needleRadius = 78; // Fixed: longer needle to reach arc
+      const progressRadius = 78;
+      const maxPercentage = 150;
+
+      const clampedPercentage = Math.max(0, Math.min(200, percentage));
+      const angleFromStart = (clampedPercentage / maxPercentage) * 180;
+      const absoluteAngle = 180 - angleFromStart;
+      const angleRad = (absoluteAngle * Math.PI) / 180;
+
+      const needleX = centerX + needleRadius * Math.cos(angleRad);
+      const needleY = centerY - needleRadius * Math.sin(angleRad);
+
+      const effectivePercentage = Math.min(clampedPercentage, maxPercentage);
+      const fullArcLength = Math.PI * progressRadius;
+      const progressArcLength = (effectivePercentage / maxPercentage) * fullArcLength;
+      const remainingArcLength = fullArcLength - progressArcLength;
+
+      const color = getColorForPercentage(clampedPercentage);
+
+      document.getElementById('needle').setAttribute('x2', needleX.toFixed(1));
+      document.getElementById('needle').setAttribute('y2', needleY.toFixed(1));
+      document.getElementById('progressArc').setAttribute(
+        'stroke-dasharray',
+        `${progressArcLength.toFixed(1)},${remainingArcLength.toFixed(1)}`
+      );
+      document.getElementById('percentageLabel').textContent = `${clampedPercentage}%`;
+      document.getElementById('percentageLabel').setAttribute('fill', color);
+      document.getElementById('percentageInput').value = clampedPercentage;
+    }
+
+    updateGauge(currentPercentage);
+
+    document.getElementById('percentageInput').addEventListener('keypress', function (e) {
+      if (e.key === 'Enter') {
+        updateGauge();
+      }
     });
 
-    updateGauge(0); // Initial setup
+    document.getElementById('percentageInput').addEventListener('input', function () {
+      updateGauge();
+    });
   </script>
 </body>
 </html>
