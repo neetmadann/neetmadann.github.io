@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive SVG Gauge</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    input[type="range"] {
+      width: 60%;
+      margin-top: 20px;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Utilization Gauge</h2>
+  <svg viewBox="0 0 200 120" width="400" height="240" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background arc -->
+    <path d="M20,110 A80,80 0 0,1 180,110" stroke="#eee" stroke-width="20" fill="none" />
+
+    <!-- Foreground arc -->
+    <path id="progressArc" d="M20,110 A80,80 0 0,1 180,110"
+          stroke="black" stroke-width="20" fill="none"
+          stroke-dasharray="0 999" stroke-linecap="round" />
+
+    <!-- Needle -->
+    <line id="needle" x1="100" y1="110" x2="100" y2="30"
+          stroke="black" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Pivot -->
+    <circle cx="100" cy="110" r="4" fill="black" />
+
+    <!-- Percentage label -->
+    <text id="label" x="100" y="125" font-size="13" font-family="Arial" font-weight="bold"
+          text-anchor="middle" fill="#fadb14">0%</text>
+  </svg>
+
+  <!-- Slider input -->
+  <input type="range" min="0" max="200" value="0" id="slider" />
+
+  <script>
+    const arc = document.getElementById('progressArc');
+    const needle = document.getElementById('needle');
+    const label = document.getElementById('label');
+    const slider = document.getElementById('slider');
+
+    const totalLength = 252.4; // Approximate arc length
+
+    function updateGauge(percent) {
+      const clamped = Math.max(0, Math.min(percent, 200));
+      const fillLength = totalLength * (clamped / 200);
+      arc.setAttribute('stroke-dasharray', `${fillLength} ${totalLength}`);
+      const angle = (clamped / 200) * 180 - 90;
+      needle.setAttribute('transform', `rotate(${angle} 100 110)`);
+      label.textContent = `${clamped}%`;
+    }
+
+    slider.addEventListener('input', (e) => {
+      updateGauge(parseFloat(e.target.value));
+    });
+
+    updateGauge(0); // Initial setup
+  </script>
+</body>
+</html>
