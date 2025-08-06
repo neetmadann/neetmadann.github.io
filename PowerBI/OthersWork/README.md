@@ -3,5 +3,4 @@
 
 This archive is a personal collection of valuable work created by others — including code, formulas, and notes.
 
-Carefully compiled for future learning, reference, and inspiration.  
-Not intended for redistribution or publication.
+Carefully compiled for personal use and inspiration, not intended to take credit
