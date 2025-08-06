@@ -1,0 +1,25 @@
+High Growth = 
+/*
+Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/
+Source: https://github.com/PBI-David/PBI-Core-Visuals-SVG-HTML
+- This isn't my work but I'd like to keep it, for my future use. David Bacci is really good, credit where credit is due :)
+*/
+"<div xmlns='http://www.w3.org/1999/xhtml'>
+    <span xmlns='http://www.w3.org/1999/xhtml' class='highGrowth'>
+      High Growth 
+      <svg id='icon' xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#137333'  viewBox='0 0 24 24'><path d='M22.5,6h-7.5v1h7.293l-9.293,9.293-6-6L.026,17.267l.707,.707,6.267-6.267,6,6L23,7.707v7.293h1V7.5c0-.827-.673-1.5-1.5-1.5Z'></path></svg>
+    </span>
+</div>
+"High Growth = 
+/*
+Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/
+Source: https://github.com/PBI-David/PBI-Core-Visuals-SVG-HTML
+- This isn't my work but I'd like to keep it, for my future use. David Bacci is really good, credit where credit is due :)
+*/
+"<div xmlns='http://www.w3.org/1999/xhtml'>
+    <span xmlns='http://www.w3.org/1999/xhtml' class='highGrowth'>
+      High Growth 
+      <svg id='icon' xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#137333'  viewBox='0 0 24 24'><path d='M22.5,6h-7.5v1h7.293l-9.293,9.293-6-6L.026,17.267l.707,.707,6.267-6.267,6,6L23,7.707v7.293h1V7.5c0-.827-.673-1.5-1.5-1.5Z'></path></svg>
+    </span>
+</div>
+"
