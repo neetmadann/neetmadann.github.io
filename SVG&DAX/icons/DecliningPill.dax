@@ -1,0 +1,12 @@
+Declining = 
+/*
+Dataviz by David Bacci: https://www.linkedin.com/in/davbacci/
+Source: https://github.com/PBI-David/PBI-Core-Visuals-SVG-HTML
+*/
+"<div xmlns='http://www.w3.org/1999/xhtml'>
+    <span xmlns='http://www.w3.org/1999/xhtml' class='declining'>
+      Declining 
+      <svg id='icon' xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#6a2039'  viewBox='0 0 24 24'><path d='M23,9v7.293L13,6.293l-6,6L.729,6.021,.021,6.729l6.979,6.979,6-6,9.293,9.293h-7.293v1h7.5c.827,0,1.5-.673,1.5-1.5v-7.5h-1Z'></path></svg>
+    </span>
+</div>
+"
