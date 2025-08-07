@@ -1,0 +1,11 @@
+Last Billed Date = 
+CALCULATE(
+    MAX(Billing[Bill Date]),
+    VALUES(Matter[Code])
+)
+
+Last Billed Date = 
+CALCULATE(
+    MAX(Billing[Bill Date]),
+    KEEPFILTERS(Matter)
+)
