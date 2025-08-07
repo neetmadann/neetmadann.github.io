@@ -1,0 +1,22 @@
+Matrix - Last Modified =
+SWITCH(
+    TRUE(),
+    ISINSCOPE(Tasks[Task Name]), MAX(Tasks[Modified On]),
+    ISINSCOPE(Project[Project Name]), CALCULATE(MAX(Tasks[Modified On]), ALL(Tasks), KEEPFILTERS(Project)),
+    BLANK()
+)
+
+Debug Scope =
+SWITCH(
+    TRUE(),
+    ISINSCOPE(Tasks[Task Name]), "Task Level",
+    ISINSCOPE(Project[Project Name]), "Project Level",
+    "Other Level"
+)
+
+Only At Customer Level =
+IF(
+    ISINSCOPE(Customer[CustomerID]),
+    [Customer Sales],
+    BLANK()
+)
